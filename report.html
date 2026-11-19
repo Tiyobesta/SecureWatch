@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SecureWatch - Report Incident</title>
+</head>
+
+<body bgcolor="black" text="white" link="white" vlink="white" alink="white">
+    <table width="100%" bgcolor="navy" >
+        <tr>
+           
+            <td align="left" width="30%">
+                <font size="4" face="Arial">
+                    <b> SecureWatch</b>
+                </font>
+            </td>
+           
+           
+            <td align="right" width="70%">
+                <font size="3" face="Arial">
+                    <a href="index.html">Home</a> &nbsp;
+                    <a href="report.html"><u>Report</u></a> &nbsp;
+                    <a href="./incident.html">Incidents</a> &nbsp;
+                    <a href="./guidelines.html">Guidelines</a> &nbsp;
+                    <a href="./contact.html">Contact</a>
+                </font>
+            </td>
+        </tr>
+    </table>
+
+   
+    <table width="100%" >
+        <tr>
+           
+            <td width="40%" valign="top">
+                <font face="Arial">
+                   
+                    <h1><font size="7">Report a<br>Cybersecurity<br>Incident</font></h1>
+                </font>
+               
+                <br>
+               
+               
+                <font size="7"></font>
+                <font size="7" color="red"></font>
+            </td>
+
+
+            <td width="60%" valign="top" align="center">
+               
+               
+                <table bgcolor="white" width="90%">
+                    <tr>
+                        <td>
+                           
+                            <form action="#" method="post">
+                                <font face="Arial" color="black">
+                                   
+                                   
+                                    <h2>1. Report an Incident</h2>
+
+                                   
+                                    <p>
+                                        <label for="fullname"><b>Full Name </b></label><br>
+                                        <input type="text" id="fullname" name="fullname" size="40" required>
+                                    </p>
+
+                                   
+                                    <p>
+                                        <label for="email"><b>Email Address </b></label><br>
+                                        <input type="email" id="email" name="email" size="40" required>
+                                    </p>
+
+                                   
+                                    <p>
+                                        <label for="category"><b>Incident Category </b></label><br>
+                                        <select id="category" name="category" required>
+                                            <option value="">-- Select Category --</option>
+                                            <option value="phishing">Phishing</option>
+                                            <option value="malware">Malware</option>
+                                            <option value="ddos">DDoS Attack</option>
+                                            <option value="unauthorized">Unauthorized Access</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </p>
+
+                                   
+                                    <h2>2. Incident Information</h2>
+                                    <p>
+                                        <label for="details"><b>Describe the Incident</b></label><br>
+                                        <textarea id="details" name="details" rows="4" cols="40"></textarea>
+                                    </p>
+<h2>3. Reporting Instructions</h2>
+                                    <p>
+                                        Please provide as much detail as possible.
+                                        If this is an emergency, contact your IT department immediately.
+                                    </p>
+
+                                    <br>
+                                   
+                                   
+                                    <table bgcolor="royalblue" cellpadding="10" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td align="center">
+                                                <input type="submit" value="Submit Report" style="background-color: royalblue; color: white; border: none; font-weight: bold; cursor: pointer;">
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </font>
+                            </form>
+                           
+
+                        </td>
+                    </tr>
+                </table>
+               
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
