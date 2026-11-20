@@ -1,32 +1,28 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>SecureWatch - Contact</title>
 </head>
 
-<body bgcolor="black" text="white" link="white" vlink="white" alink="white">
+<body>
 
     <header>
-        <table width="100%" bgcolor="navy" cellpadding="15" cellspacing="0">
+        <table width="100%" cellpadding="15" cellspacing="0">
             <tr>
                 <td align="left" width="30%">
-                    <font size="4" face="Arial">
-                        <b> SecureWatch</b>
-                    </font>
+                    <b>SecureWatch</b>
                 </td>
 
                 <td align="right" width="70%">
-                    <font size="3" face="Arial">
-                        <nav>
-                            <a href="index.html">Home</a> &nbsp;
-                            <a href="report.html">Report</a> &nbsp;
-                            <a href="incident.html">Incidents</a>
-                            <a href="guideline.html">Guidelines</a>
-                            <a href="contact.html"><u>Contact</u></a>
-                        </nav>
-                    </font>
+                    <nav>
+                        <a href="index.html">Home</a> &nbsp;
+                        <a href="report.html">Report</a> &nbsp;
+                        <a href="incident.html">Incidents</a> &nbsp;
+                        <a href="guideline.html">Guidelines</a> &nbsp;
+                        <a href="contact.html"><u>Contact</u></a>
+                    </nav>
                 </td>
             </tr>
         </table>
@@ -34,21 +30,21 @@
 
     <main>
 
-        <h1><font face="Arial" size="6">Contact SecureWatch</font></h1>
+        <h1>Contact SecureWatch</h1>
 
         <table width="100%" cellpadding="20" cellspacing="0">
             <tr>
                 <td width="50%" valign="top">
 
-                    <font face="Arial" size="7" color="deepskyblue">
-
-                    </font>
-
                     <h2>1. Contact Information</h2>
 
                     <p>
-                        Email: <a href="mailto:tiyobstamichael5@gmail.com">tiyobstamichael5@gmail.com</a><br>
-                        Phone:+251987018146<br>
+                        Email:
+                        <a href="mailto:tiyobstamichael5@gmail.com">
+                            tiyobstamichael5@gmail.com
+                        </a><br>
+
+                        Phone: +251987018146<br>
                         Address: Addis Ababa, Ethiopia
                     </p>
 
@@ -62,34 +58,33 @@
 
                 </td>
 
-                <td width="50%" valign="top" bgcolor="white">
+                <td width="50%" valign="top">
 
-                    <h2><font face="Arial" color="black">3. Send Us a Message</font></h2>
+                    <h2>3. Send Us a Message</h2>
 
                     <form action="#" method="post">
 
-                        <font face="Arial" color="black">
+                        <p>
+                            <label for="fullname"><b>Full Name</b></label><br>
+                            <input type="text" id="fullname"
+                            name="fullname" size="40" required>
+                        </p>
 
-                            <p>
-                                <label for="fullname"><b>Full Name *</b></label><br>
-                                <input type="text" id="fullname" name="fullname" size="40" required>
-                            </p>
+                        <p>
+                            <label for="email"><b>Email Address</b></label><br>
+                            <input type="email" id="email"
+                            name="email" size="40" required>
+                        </p>
 
-                            <p>
-                                <label for="email"><b>Email Address</b></label><br>
-                                <input type="email" id="email" name="email" size="40" required>
-                            </p>
+                        <p>
+                            <label for="message"><b>Message</b></label><br>
+                            <textarea id="message" name="message"
+                            rows="4" cols="40" required></textarea>
+                        </p>
 
-                            <p>
-                                <label for="message"><b>Message</b></label><br>
-                                <textarea id="message" name="message" rows="4" cols="40" required></textarea>
-                            </p>
+                        <br>
 
-                            <br>
-
-                            <input type="submit" value="Send Message">
-
-                        </font>
+                        <input type="submit" value="Send Message">
 
                     </form>
 
@@ -98,11 +93,10 @@
         </table>
 
     </main>
+
     <footer>
         <p align="center">
-            <font face="Arial" color="silver">
-                &copy; 2026 SecureWatch. All rights reserved.
-            </font>
+            &copy; 2026 SecureWatch. All rights reserved.
         </p>
     </footer>
 
